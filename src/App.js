@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Papa from 'papaparse';
-import { Container, CssBaseline, ThemeProvider, createTheme, Button, Dialog, DialogTitle, DialogContent, Typography } from '@mui/material';
+import { Container, CssBaseline, ThemeProvider, createTheme, Dialog, DialogTitle, DialogContent, Typography } from '@mui/material';
 import SearchBar from './components/SearchBar';
 import WineList from './components/WineList';
 import Statistics from './components/Statistics';
@@ -80,7 +80,6 @@ function App() {
           rowsPerPage={rowsPerPage}
           setRowsPerPage={setRowsPerPage}
         />
-
         <Dialog 
           open={openStats} 
           onClose={() => setOpenStats(false)}

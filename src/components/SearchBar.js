@@ -38,6 +38,10 @@ function SearchBar({ wines, setFilteredWines, setPage }) {
            wine.producer.toLowerCase().includes(searchStr.toLowerCase())
          );
          break;
+       default:
+         // Se il tipo di ricerca non corrisponde a nessun caso, mantieni tutti i vini
+         filtered = wines;
+         break;
      }
    }
 
