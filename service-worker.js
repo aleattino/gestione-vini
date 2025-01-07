@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/gestione-vini/precache-manifest.6da3b28e4773c86635f093e0b977823e.js"
+  "/gestione-vini/precache-manifest.2c33152e8549bd6d00d53155cb8135f5.js"
 );
 
 self.addEventListener('message', (event) => {
