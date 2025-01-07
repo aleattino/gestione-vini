@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a0131e5a09ba13623c549ef371a3f446",
+    "revision": "cf98d82cf28a0e0f962938df28398e6a",
     "url": "/gestione-vini/index.html"
   },
   {
-    "revision": "da3b66af9d1af49921f1",
+    "revision": "7d896309ff5a16760998",
     "url": "/gestione-vini/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gestione-vini/static/js/3.e01201f1.chunk.js"
   },
   {
-    "revision": "da3b66af9d1af49921f1",
-    "url": "/gestione-vini/static/js/main.4f50f87f.chunk.js"
+    "revision": "7d896309ff5a16760998",
+    "url": "/gestione-vini/static/js/main.c099c6ff.chunk.js"
   },
   {
     "revision": "4c3f15360f0b6b9ddf0c",
