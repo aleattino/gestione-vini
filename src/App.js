@@ -22,7 +22,7 @@ function App() {
   const [openStats, setOpenStats] = useState(false);
 
   useEffect(() => {
-    Papa.parse('/barnivore_new.csv', {
+    Papa.parse('/public/barnivore_new.csv', {
       download: true,
       header: true,
       complete: (results) => {
