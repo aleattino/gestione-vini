@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/gestione-vini/static/css/main.e6c13ad2.css",
+    "main.js": "/gestione-vini/static/js/main.06fc8680.js",
+    "static/js/453.9f2a574a.chunk.js": "/gestione-vini/static/js/453.9f2a574a.chunk.js",
+    "index.html": "/gestione-vini/index.html",
+    "main.e6c13ad2.css.map": "/gestione-vini/static/css/main.e6c13ad2.css.map",
+    "main.06fc8680.js.map": "/gestione-vini/static/js/main.06fc8680.js.map",
+    "453.9f2a574a.chunk.js.map": "/gestione-vini/static/js/453.9f2a574a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.06fc8680.js"
+  ]
+}
