@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Gestione Vini - Sistema di Analisi Vini Vegani
+Questo progetto consiste nella creazione di un sistema di gestione elementi (SGE) applicato al settore vinicolo, sviluppato utilizzando il linguaggio di programmazione Python.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ho sviluppato un programma che consente di esplorare e analizzare un database di vini attraverso diverse funzionalità di ricerca e visualizzazione. Nel database, ogni vino è caratterizzato da attributi specifici: nome, produttore, paese di origine ed etichetta, con particolare enfasi sulle etichette vegan friendly/not vegan friendly.
 
-## Available Scripts
+Ho utilizzato un database disponibie su Kaggle (https://www.kaggle.com/datasets/maximvlah/barnivore-list-of-vegannonvegan-wines) ottenuto dallo scraping del sito del progetto Barnivore, considerando esclusivamente i dati relativi ai vini. 
+L'ultimo aggiornamento risale al 2020, ma mi è sembrato ottimo per lo scopo che mi ero prefissato.
 
-In the project directory, you can run:
 
-### `npm start`
+**Funzionalità principali**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* ricerca per nome, produttore e stato;
+* filtraggio dei vini vegan friendly;
+* analisi statistica dei vini per paese;
+* identificazione di produttori che si dedicano esclusivamente alla produzione di vini vegan friendly;
+* ricerca incrociata avanzata.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Python**
 
-### `npm test`
+* librerie standard di Python;
+* gestione file e interfaccia utente con Tkinter.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+**Versione Web React**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* React 18
+* Material-UI
+* Papaparse per elaborazione CSV
+* GitHub Pages per hosting
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Versione Web**
 
-### `npm run eject`
+https://aleattino.github.io/gestione-vini/
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Perchè vegan friendly/not vegan friendly?**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+I vini vengono classificati come vegan friendly considerando i processi di chiarificazione e stabilizzazione.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+*Not vegan friendly* - utilizzano agenti di origine animale come:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* albumina (uova);
+* caseina (latte);
+* colla di pesce;
+* gelatina animale.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+*Vegan friendly* - utilizzano alternative vegetali come:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* bentonite;
+* proteine vegetali;
+* gel di silice;
+* caolino.
