@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/gestione-vini/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/gestione-vini/static/js/main.4f50f87f.chunk.js",
-    "main.js.map": "/gestione-vini/static/js/main.4f50f87f.chunk.js.map",
-    "runtime~main.js": "/gestione-vini/static/js/runtime~main.0e6628a9.js",
-    "runtime~main.js.map": "/gestione-vini/static/js/runtime~main.0e6628a9.js.map",
-    "static/js/2.b0411bab.chunk.js": "/gestione-vini/static/js/2.b0411bab.chunk.js",
-    "static/js/2.b0411bab.chunk.js.map": "/gestione-vini/static/js/2.b0411bab.chunk.js.map",
-    "static/js/3.e01201f1.chunk.js": "/gestione-vini/static/js/3.e01201f1.chunk.js",
-    "static/js/3.e01201f1.chunk.js.map": "/gestione-vini/static/js/3.e01201f1.chunk.js.map",
+    "main.css": "/gestione-vini/static/css/main.e6c13ad2.css",
+    "main.js": "/gestione-vini/static/js/main.774a732c.js",
+    "static/js/453.9f2a574a.chunk.js": "/gestione-vini/static/js/453.9f2a574a.chunk.js",
     "index.html": "/gestione-vini/index.html",
-    "precache-manifest.2c33152e8549bd6d00d53155cb8135f5.js": "/gestione-vini/precache-manifest.2c33152e8549bd6d00d53155cb8135f5.js",
-    "service-worker.js": "/gestione-vini/service-worker.js",
-    "static/css/main.5ecd60fb.chunk.css.map": "/gestione-vini/static/css/main.5ecd60fb.chunk.css.map"
-  }
+    "main.e6c13ad2.css.map": "/gestione-vini/static/css/main.e6c13ad2.css.map",
+    "main.774a732c.js.map": "/gestione-vini/static/js/main.774a732c.js.map",
+    "453.9f2a574a.chunk.js.map": "/gestione-vini/static/js/453.9f2a574a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.774a732c.js"
+  ]
 }
