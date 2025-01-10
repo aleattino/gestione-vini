@@ -1,4 +1,4 @@
-# Gestione Vini - Sistema di Analisi Vini Vegani
+# SGE - Sistema di analisi di vini vegan friendly
 Questo progetto consiste nella creazione di un sistema di gestione elementi (SGE) applicato al settore vinicolo, sviluppato utilizzando il linguaggio di programmazione Python.
 
 Ho sviluppato un programma che consente di esplorare e analizzare un database di vini attraverso diverse funzionalità di ricerca e visualizzazione. Nel database, ogni vino è caratterizzato da attributi specifici: nome, produttore, paese di origine ed etichetta, con particolare enfasi sulle etichette vegan friendly/not vegan friendly.
